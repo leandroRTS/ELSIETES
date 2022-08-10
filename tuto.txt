@@ -1,0 +1,32 @@
+/myuser - Obtiene la informacion del usuario que  estas usando en el bot y las configuraciones 
+
+/zips - Configura el tamano de las partes de los zips en MB 
+
+/account - Configura su cuenta de nube en el bot. Ejem usuario,contraseña
+ 
+/host - Configura el Host Al Cual va a subir los archivos el bot x ejemplo https://posgrado.unica.cu/ (Moodle o Nexcloud)
+
+/repoid - En el caso de las moodles y nube cada una tiene su repoid q hay q saber extraerlo y configurar al bot para poder subir "pregunta al admin"
+
+/cloud - Alterna El tipo de subida a nubes ya sea cloud o moodle , en caso de cloud es nexcloud pero para simplificar se pone cloud 
+
+/tokenize_on - Enciende el modo tokenize , se recomienda no usar a no se que disponga de una de las apps oficiales de descarga del bot 
+
+/tokenize_off - Apaga el modo tokenize 
+
+/uptype - Configure el modo de subir de moodle ya sea draft , evidence , blog y calendario 
+
+/proxy - Configura UN Proxy Para Las Subidas Del Bot 
+
+/files - En caso de tener activa el uptype (evidence) este comando le da una lista de archivo q se encuentra en las evidencias de la nube
+
+/delall - En caso de tener activa el uptype (evidence) este comando borra todos los archivos en la lista de evidencia de la nube
+
+/dir - En caso de tener activo cloud configure el directorio base en la nexcloud donde se va a subir los
+ archivos 
+
+/banuser - quita acceso al bot de un usuario de telegram "Solo admin" 
+
+/adduser - añadir un usuario al bot darle acceso 
+
+/getdb - Obten la base de datos donde se almacenan la info de los usarios en el bot
